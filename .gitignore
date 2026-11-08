@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Runtime and database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Face images and personal student data
+data/faces/
+data/smartattend.db
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
